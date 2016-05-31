@@ -1,6 +1,6 @@
 from math import sqrt
 
-N = 600851475143
+num = 600851475143
 
 def primeList(N):
   # index start from number 2
@@ -23,6 +23,6 @@ def primeFactor(N):
     if N % i == 0:
       return N/i
 
-print(primeFactor(N))
+print(primeFactor(num))
 
 
