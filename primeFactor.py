@@ -3,9 +3,8 @@ from math import sqrt
 num = 600851475143
 
 def primeList(N):
-  # index start from number 2
   halfN = int(sqrt(N))
-  primeCandidate = [1] * halfN
+  primeCandidate = [1] * halfN # index start from number 2
   prime = []
 
   for i in xrange(2, halfN):
