@@ -18,9 +18,9 @@ def primeList(N):
   return prime
   
 def primeFactor(N):
-  for i in primeList(N):
+  for i in reversed(primeList(N)):
     if N % i == 0:
-      return N/i
+      return i
 
 print(primeFactor(num))
 
